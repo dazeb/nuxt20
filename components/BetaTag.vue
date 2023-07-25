@@ -1,0 +1,9 @@
+<template>
+    <UBadge
+        color="primary"
+        label="beta"
+        size="xs"
+        variant="solid"
+        class="rounded"
+    />
+</template>
