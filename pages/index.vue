@@ -2,6 +2,7 @@
     <div>
         <MainNav2 />
         <BasicHero />
+
         <ContentBox />
         <Logos />
         <MainFoot />

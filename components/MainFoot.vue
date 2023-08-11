@@ -1,6 +1,6 @@
 <template>
     <footer
-        class="text-gray-500 bg-white dark:bg-gradient-to-b from-gray-800 via-gray-900 to-black"
+        class="text-gray-500 bg-white dark:bg-gradient-to-b from-black via-gray-900 to-black"
     >
         <div class="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
             <div class="flex justify-center">
@@ -33,7 +33,7 @@
                 <li>
                     <NuxtLink
                         to="/"
-                        class="transition dark:text-gray-100 dark:hover:text-green-500 hover:text-green-600 dark:hover:text-green-600"
+                        class="transition dark:text-gray-100 dark:hover:text-green-400 hover:text-green-600"
                         >About
                     </NuxtLink>
                 </li>
@@ -41,7 +41,7 @@
                 <li>
                     <NuxtLink
                         to="/"
-                        class="transition dark:text-gray-100 dark:hover:text-green-500 hover:text-green-600 dark:hover:text-green-600"
+                        class="transition dark:text-gray-100 dark:hover:text-green-400 hover:text-green-600"
                         >Showcase
                     </NuxtLink>
                 </li>
@@ -49,7 +49,7 @@
                 <li>
                     <NuxtLink
                         to="/"
-                        class="transition dark:text-gray-100 dark:hover:text-green-500 hover:text-green-600 dark:hover:text-green-600"
+                        class="transition dark:text-gray-100 dark:hover:text-green-400 hover:text-green-600"
                         >Privacy
                     </NuxtLink>
                 </li>
@@ -57,7 +57,7 @@
                 <li>
                     <NuxtLink
                         to="/"
-                        class="transition dark:text-gray-100 dark:hover:text-green-500 hover:text-green-600 dark:hover:text-green-600"
+                        class="transition dark:text-gray-100 dark:hover:text-green-400 hover:text-green-600"
                         >Terms
                     </NuxtLink>
                 </li>
@@ -65,7 +65,7 @@
                 <li>
                     <NuxtLink
                         to="/"
-                        class="transition dark:text-gray-100 dark:hover:text-green-500 hover:text-green-600 dark:hover:text-green-600"
+                        class="transition dark:text-gray-100 dark:hover:text-green-400 hover:text-green-600"
                         >Projects
                     </NuxtLink>
                 </li>
@@ -73,7 +73,7 @@
                 <li>
                     <NuxtLink
                         to="/"
-                        class="transition dark:text-gray-100 dark:hover:text-green-500 hover:text-green-600 dark:hover:text-green-600"
+                        class="transition dark:text-gray-100 dark:hover:text-green-400 hover:text-green-600"
                         >Blog
                     </NuxtLink>
                 </li>

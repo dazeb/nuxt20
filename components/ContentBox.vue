@@ -1,6 +1,6 @@
 <template>
     <section
-        class="bg-white dark:bg-gradient-to-b from-gray-800 via-gray-900 to-gray-950 dark:bg-slate-600"
+        class="bg-white dark:bg-gradient-to-t from-black via-gray-900 to-gray-950"
     >
         <div
             class="grid max-w-screen-xl grid-cols-1 gap-12 p-4 px-2 pt-48 pb-24 mx-auto md:grid-cols-2 lg:grid-cols-3"

@@ -3,9 +3,15 @@ export default defineNuxtConfig({
     ui: {
         icons: ["all", "mdi", "carbon"],
     },
-    modules: ["@nuxthq/ui", "nuxt-icon", "@nuxtjs/algolia", "@nuxtjs/algolia"],
+    modules: ["@nuxthq/ui", "nuxt-icon", "@nuxtjs/algolia", "@nuxtjs/supabase"],
 
     devtools: { enabled: true },
+
+    supabase: {
+        key: process.env.SUPABASE_KEY,
+        url: process.env.SUPABASE_URL,
+        serviceKey: process.env.SUPABASE_SERVICE_KEY,
+    },
 
     algolia: {
         apiKey: "1565846336d20c3c34ffb4f3fee7e3cc",

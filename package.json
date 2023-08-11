@@ -13,12 +13,14 @@
     "@nuxt/devtools": "^0.7.1",
     "@nuxthq/ui": "^2.6.0",
     "@nuxtjs/algolia": "^1.8.0",
+    "@nuxtjs/supabase": "^0.3.8",
     "@types/node": "^20.4.4",
     "nuxt": "^3.6.5",
     "nuxt-icon": "^0.4.2",
     "prettier": "3.0.0"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.23.1",
     "@egoist/tailwindcss-icons": "^1.1.0",
     "@iconify-json/carbon": "^1.1.18",
     "@iconify/json": "^2.2.94",

@@ -34,7 +34,9 @@
                             class="text-gray-600 transition sm:flex sm:gap-4 hover:text-gray-600/75"
                         >
                             <UButton
-                                to="https://volta.net"
+                                to="/signin"
+                                color="gray"
+                                variant="solid"
                                 label="Sign in"
                                 target="_blank"
                             />
