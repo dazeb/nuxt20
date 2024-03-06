@@ -3,13 +3,7 @@ export default defineNuxtConfig({
     ui: {
         icons: ["all", "mdi", "carbon"],
     },
-    modules: [
-        "@nuxthq/ui",
-        "nuxt-icon",
-        "@nuxtjs/algolia",
-        "@nuxtjs/supabase",
-        "@nuxt/image",
-    ],
+    modules: ["@nuxthq/ui", "nuxt-icon", "@nuxtjs/algolia", "@nuxt/image"],
 
     devtools: { enabled: true },
 
