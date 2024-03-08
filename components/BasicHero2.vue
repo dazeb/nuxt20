@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <section class="relative px-2 py-12 bg-white sm:py-20 md:py-32 md:px-0">
         <div
             class="relative top-0 left-0 items-center justify-center w-full h-full md:absolute"
@@ -49,7 +49,7 @@
                     </div>
                     <div class="w-full md:w-1/2">
                         <!-- intentionally leaving this empty -->
-                    </div>
+<!-- </div>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@
         >
             <div class="hidden w-1/2 md:block">
                 <!-- left side leaving empty so that way the laptop can span full width on the right -->
-            </div>
+<!-- </div>
             <div class="w-full -mr-32 2xl:-mr-64 md:w-7/12">
                 <img
                     src="https://cdn.devdojo.com/images/january2021/tails-macbook.png"
@@ -67,4 +67,54 @@
             </div>
         </div>
     </section>
+</template> --> --> -->
+<template>
+    <div class="relative">
+        <AnimatedBackground />
+        <div class="relative z-10 pb-36 pt-36">
+            <div class="max-w-3xl px-12 mx-auto space-y-8 text-left lg:px-0 md:text-center h-50">
+                <div class="max-w-3xl px-12 mx-auto space-y-8 text-left lg:px-0 md:text-center h-50">
+                    <UBadge label="Prices now start at just £5/month" color="primary" variant="solid" size="md"
+                        class="inline-flex items-center text-green-800 bg-green-100" />
+                    <h2 class="max-w-2xl mx-auto text-5xl font-bold text-gray-600 dark:text-gray-100 md:text-6xl">
+                        Rapid Deployment Microhosting for
+                        <span class="text-green-500">Applications</span>
+                    </h2>
+
+                    <p class="flex justify-center max-w-3xl space-y-5 text-lg text-gray-500 dark:text-white">
+                        Do not waste time creating application development
+                        environments. Our servers are optimized for application
+                        development and deployment. We offer full Node.js, Python,
+                        PHP & Static HTML all on one package.
+                    </p>
+
+                    <div
+                        class="flex flex-col items-center justify-start w-full space-y-5 md:flex-row md:space-y-0 md:space-x-5 md:justify-center">
+                        <NuxtLink to="/"
+                            class="w-full px-10 py-3 font-medium text-center text-white bg-green-500 rounded-lg md:w-auto dark:hover:bg-green-600 hover:bg-green-600 dark:hover:ring-green-500/80 focus:ring-green-500 dark:focus:ring-green-500 dark:focus:ring-2 hover:shadow-green-500/80">
+                            Get Started
+                        </NuxtLink>
+                        <NuxtLink to="/"
+                            class="w-full px-10 py-3 font-medium text-center text-green-500 bg-transparent border border-green-500 rounded-lg md:w-auto hover:ring-green-500 dark:hover:ring-green-500 focus:ring-green-500 dark:focus:ring-green-500 dark:focus:ring-2 hover:dark:border-green-500/70 hover:dark:shadow-green-500/80">
+                            Learn More
+                        </NuxtLink>
+                    </div>
+                    <ColorModeButton />
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
+
+<script>
+import AnimatedBackground from '~/components/AnimatedBackground.vue';
+import ColorModeButton from '~/components/ColorModeButton.vue';
+
+export default {
+    components: {
+        AnimatedBackground,
+        ColorModeButton,
+    },
+    // Your component logic
+};
+</script>
