@@ -1,6 +1,7 @@
 # Nuxt 3 Minimal Starter
 
-![Alt text](5da54b761125f04ebc6a4be4c20bee93.png)
+![2024-03-08 11_40_28-Window](https://github.com/dazeb/nuxt20/assets/67932890/06cff684-557d-4f9b-b917-c71f2456eb32)
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
