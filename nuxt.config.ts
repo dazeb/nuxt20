@@ -7,12 +7,6 @@ export default defineNuxtConfig({
 
     devtools: { enabled: true },
 
-    supabase: {
-        key: process.env.SUPABASE_KEY,
-        url: process.env.SUPABASE_URL,
-        serviceKey: process.env.SUPABASE_SERVICE_KEY,
-    },
-
     algolia: {
         apiKey: "1565846336d20c3c34ffb4f3fee7e3cc",
         applicationId: "B7FA95V1ZN",
