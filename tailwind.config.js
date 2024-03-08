@@ -7,7 +7,7 @@ module.exports = {
         "./pages/**/*.vue",
         "./plugins/**/*.{js,ts}",
         "./nuxt.config.{js,ts}",
-        "./content/**/*.md"
+        "./content/**/*.md",
     ],
     theme: {
         screens: {
