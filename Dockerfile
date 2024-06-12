@@ -1,23 +1,28 @@
-FROM node:18-alpine AS base
+FROM node:20-slim AS base
 
-FROM base AS deps
-RUN apk add --no-cache libc6-compat
+# Set the working directory
 WORKDIR /app
+
+# Copy package.json and pnpm-lock.yaml
 COPY package.json pnpm-lock.yaml ./
-RUN npm install -g pnpm && pnpm install --frozen-lockfile
 
-FROM base AS builder
-WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
+# Install PNPM
+RUN npm install -g pnpm
+
+# Install dependencies
+RUN pnpm install --frozen-lockfile
+
+# Copy the entire project
 COPY . .
-RUN npm install -g pnpm && pnpm run build
 
-FROM base AS runner
-WORKDIR /app
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nuxt
-COPY --from=builder /app .
-USER nuxt
+# Build the Nuxt 3 app
+RUN pnpm run build
+
+# Set the environment variable for the output folder
+ENV NUXT_OUTPUT_DIR=.output
+
+# Expose the port your Nuxt 3 app will run on
 EXPOSE 3000
-ENV PORT 3000
-CMD ["node", ".output/server/index.mjs"]
+
+# Start the Nuxt 3 app
+CMD ["pnpm", "run", "start"]
