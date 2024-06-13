@@ -1,32 +1,32 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@clerk/nextjs": "5.0.3",
-    "@egoist/tailwindcss-icons": "^1.7.4",
-    "@iconify-json/carbon": "^1.1.31",
-    "@iconify/json": "^2.2.204",
-    "@nuxt/content": "^2.12.1",
-    "@nuxt/devtools": "^1.2.0",
-    "@nuxt/image": "1.6.0",
-    "@nuxthq/ui": "^2.7.0",
-    "@nuxtjs/algolia": "^1.10.2",
-    "@types/node": "^20.12.7",
-    "nuxt": "^3.11.2",
-    "nuxt-icon": "^0.6.10",
-    "prettier": "3.2.5"
-  },
-  "dependencies": {
-    "fuse.js": "^7.0.0",
-    "rollup": "^4.18.0"
-  },
-  "packageManager": "pnpm@9.1.0-0+sha256.c557b24d2298d9b5e3be7086ebf55a28253b008324d545f72645a6de89844102"
+    "name": "nuxt-app",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "devDependencies": {
+        "@clerk/nextjs": "5.1.5",
+        "@egoist/tailwindcss-icons": "^1.8.1",
+        "@iconify-json/carbon": "^1.1.35",
+        "@iconify/json": "^2.2.218",
+        "@nuxt/content": "^2.12.1",
+        "@nuxt/devtools": "^1.3.3",
+        "@nuxt/image": "1.7.0",
+        "@nuxthq/ui": "^2.7.0",
+        "@nuxtjs/algolia": "^1.10.2",
+        "@types/node": "^20.14.2",
+        "nuxt": "^3.12.1",
+        "nuxt-icon": "^0.6.10",
+        "prettier": "3.3.2"
+    },
+    "dependencies": {
+        "fuse.js": "^7.0.0",
+        "rollup": "^4.18.0"
+    },
+    "packageManager": "pnpm@9.1.0-0+sha256.c557b24d2298d9b5e3be7086ebf55a28253b008324d545f72645a6de89844102"
 }
